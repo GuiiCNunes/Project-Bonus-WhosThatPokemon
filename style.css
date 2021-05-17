@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  background-image: url(./images/whosThatPokemon.png);
+  background-repeat: no-repeat;
+  height: 53vh;
+  width: 50vw;
+}
+
+/* Fonte: https://css-tricks.com/almanac/properties/m/mask-image/ */
+#pokemon {
+  width: 12vw;
+  height: 25vh;
+
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 350px;
+
+  background-color: black;
+
+  /* -webkit-mask-image: url(https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png); */
+  -webkit-mask-repeat: no-repeat;
+}
